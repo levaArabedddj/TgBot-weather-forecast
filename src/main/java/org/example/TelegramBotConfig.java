@@ -7,6 +7,7 @@ import java.util.Properties;
 public class TelegramBotConfig {
     private final Properties properties;
 
+
     TelegramBotConfig()throws IOException{
         properties = new Properties();
         String path = "src\\main\\resources\\application.properties";
